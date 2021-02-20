@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Functions</title>
+    <link rel="stylesheet" href="css\bootstrap.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-md-5 col-sm-12">
+    <p style="font-family: cursive;color:rgb(58, 58, 58); font-size: 28px;font-weight: bold;"> Credit Card Number:<br/>
+    <input type="number" id="cred" placeholder="credit number" size="300px" required/><br/>
+     <p id="r1" style="font-size: 20px;color:black;font-family: cursive;"></p><br/>
+     <button onclick="hide()" style="margin-top:-60px;" id="b1" type="button" class="btn btn-dark">Change</button> 
+    </p>
+    </div>
+    <div class="col-md-5 col-sm-12">
+        <p style="font-family: cursive;color:rgb(58, 58, 58); font-size: 28px;font-weight: bold;">For Number of Potatos:<br/>
+            <input type="text" id="potato" placeholder="String" size="20px" required/><br/>
+             <p id="r2" style="font-size: 20px;color:black;font-family: cursive;"></p><br/>
+             <button onclick="potatos()" style="margin-top:-60px;" id="b2" type="button" class="btn btn-dark">FIND</button>
+    </div>
+        </div>
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-md-5 col-sm-12">
+            <p style="font-family: cursive;color:rgb(58, 58, 58); font-size: 28px;font-weight: bold;">Repeat the char of string:<br/>
+                <input type="text" id="repeat" placeholder="String" size="20px" required/><br/>
+                 <p id="r3" style="font-size: 20px;color:black;font-family: cursive;"></p><br/>
+                 <button onclick="repeat()" style="margin-top:-60px;" id="b3" type="button" class="btn btn-dark">Repeat</button>
+        </div>
+        <div class="col-md-5 col-sm-12">
+            <p style="font-family: cursive;color:rgb(58, 58, 58); font-size: 28px;font-weight: bold;">For Gross Salary:<br/>
+                <input type="number" id="cal" placeholder="Basic salary" size="300px" required/><br/>
+                 <p id="r4" style="font-size: 20px;color:black;font-family: cursive;"></p><br/>
+                 <button onclick="calculate()" style="margin-top:-60px;" id="b4" type="button" class="btn btn-dark">Calculate</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-md-5 col-sm-12">
+            <p style="font-family: cursive;color:rgb(58, 58, 58); font-size: 28px;font-weight: bold;">For Electricity Bill:<br/>
+                <input type="number" id="unit" placeholder="Units" size="300px" required/><br/>
+                 <p id="r5" style="font-size: 20px;color:black;font-family: cursive;"></p><br/>
+                 <button onclick="units()" style="margin-top:-60px;" id="b5" type="button" class="btn btn-dark">Calculate</button>
+        </div>
+        <div class="col-md-5 col-sm-12">
+            <p style="font-family: cursive;color:rgb(58, 58, 58); font-size: 28px;font-weight: bold;">Multiplicatives For 3 and 5:<br/>
+                <input type="number" id="multi" placeholder="Enter limit" size="300px"required/><br/>
+                 <p id="r6" style="font-size: 20px;color:black;font-family: cursive;"></p><br/>
+                 <button onclick="multiplicative()" style="margin-top:-60px;" id="b6" type="button" class="btn btn-dark">Multiply</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-1"></div>
+            <div class="col-md-5 col-sm-12">
+                <p style="font-family: cursive;color:rgb(58, 58, 58); font-size: 28px;font-weight: bold;">Count for Repeation :<br/>
+                    <input type="number" id="ret" placeholder="Enter the length of an Array" size="20px"required/><br/>
+                     <p id="r7" style="font-size: 20px;color:black;font-family: cursive;"></p><br/>
+                     <button onclick="count()" style="margin-top:-60px;" id="b7" type="button" class="btn btn-dark">Count</button>
+            </div>
+            <div class="col-md-5 col-sm-12">
+            <p style="font-family: cursive;color:rgb(58, 58, 58); font-size: 28px;font-weight: bold;">For Finding the Char in String:<br/>
+                <input type="text" id="find" placeholder="Enter the String" size="20px"required/><br/>
+                 <p id="r8" style="font-size: 20px;color:black;font-family: cursive;"></p><br/>
+                 <button onclick="find()" style="margin-top:-60px;" id="b8" type="button" class="btn btn-dark">Find</button>
+        </div>
+    </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
